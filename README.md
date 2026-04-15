@@ -1,8 +1,8 @@
-\# LLM FastAPI Project
+# LLM FastAPI Project
 
 
 
-\## Описание
+## Описание
 
 
 
@@ -10,11 +10,11 @@
 
 
 
-\---
+---
 
 
 
-\## Установка
+## Установка
 
 
 
@@ -34,11 +34,11 @@ uv pip install -r <(uv pip compile pyproject.toml)
 
 
 
-\---
+---
 
 
 
-\## Запуск
+## Запуск
 
 
 
@@ -50,85 +50,85 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 
 
-\---
+---
 
 
 
-\## Аутентификация
+## Аутентификация
 
 
 
-\### Регистрация
+### Регистрация
 
 
 
-!\[request](./screenshots/request.png)
+![request](./screenshots/request.png)
 
 
 
-\### Логин
+### Логин
 
 
 
-!\[login](./screenshots/login.png)
+![login](./screenshots/login.png)
 
 
 
-\### Авторизация (Swagger)
+### Авторизация (Swagger)
 
 
 
-!\[auth](./screenshots/auth.png)
+![auth](./screenshots/auth.png)
 
 
 
-\### Получение профиля
+### Получение профиля
 
 
 
-!\[auth\_check](./screenshots/auth\_check.png)
+![auth_check](./screenshots/auth_check.png)
 
 
 
-\---
+---
 
 
 
-\## Работа с чатом
+## Работа с чатом
 
 
 
-\### Запрос к LLM
+### Запрос к LLM
 
 
 
-!\[model\_answer](./screenshots/model\_answer.png)
+![model_answer](./screenshots/model_answer.png)
 
 
 
-\### История пользователя
+### История пользователя
 
 
 
-!\[history](./screenshots/history.png)
+![history](./screenshots/history.png)
 
 
 
-\### Очистка истории
+### Очистка истории
 
 
 
-!\[delete\_user](./screenshots/delete\_user.png)
+![delete_user](./screenshots/delete_user.png)
 
 
 
 
 
-\---
+---
 
 
 
-\## Проверка кода
+## Проверка кода
 
 
 
@@ -144,5 +144,5 @@ uv run ruff check
 
 
 
-!\[ruff\_check](./screenshots/ruff\_check.png)
+![ruff_check](./screenshots/ruff_check.png)
 
