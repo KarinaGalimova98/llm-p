@@ -1,0 +1,148 @@
+\# LLM FastAPI Project
+
+
+
+\## Описание
+
+
+
+Серверное приложение на FastAPI с JWT-аутентификацией, SQLite и интеграцией с OpenRouter.
+
+
+
+\---
+
+
+
+\## Установка
+
+
+
+```bash
+
+uv init
+
+uv venv
+
+.venv\\Scripts\\activate
+
+
+
+uv pip install -r <(uv pip compile pyproject.toml)
+
+```
+
+
+
+\---
+
+
+
+\## Запуск
+
+
+
+```bash
+
+uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+```
+
+
+
+\---
+
+
+
+\## Аутентификация
+
+
+
+\### Регистрация
+
+
+
+!\[request](./screenshots/request.png)
+
+
+
+\### Логин
+
+
+
+!\[login](./screenshots/login.png)
+
+
+
+\### Авторизация (Swagger)
+
+
+
+!\[auth](./screenshots/auth.png)
+
+
+
+\### Получение профиля
+
+
+
+!\[auth\_check](./screenshots/auth\_check.png)
+
+
+
+\---
+
+
+
+\## Работа с чатом
+
+
+
+\### Запрос к LLM
+
+
+
+!\[model\_answer](./screenshots/model\_answer.png)
+
+
+
+\### История пользователя
+
+
+
+!\[history](./screenshots/history.png)
+
+
+
+\### Очистка истории
+
+
+
+!\[delete\_user](./screenshots/delete\_user.png)
+
+
+
+
+
+\---
+
+
+
+\## Проверка кода
+
+
+
+```bash
+
+uv run ruff check
+
+```
+
+
+
+Результат:
+
+
+
+!\[ruff\_check](./screenshots/ruff\_check.png)
+
